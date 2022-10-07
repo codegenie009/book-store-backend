@@ -7,6 +7,6 @@ module.exports = ({ env }) => ({
   },
   cron: {
     enabled: true,
-    traks: cronTasks,
+    task: cronTasks,
   },
 });

@@ -5,4 +5,8 @@ module.exports = ({ env }) => ({
             model: "scheduler",
         },
     },
+    'fluentc': {
+        enabled: true,
+        resolve: './src/plugins/fluentc'
+    },
 });
